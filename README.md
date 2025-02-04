@@ -28,4 +28,9 @@ build our dockerized application
 push it to the selected docker service (docker hub)
 update another github repository with the manifests (deployment & service yamls) to be used by ArgoCD to deploy/update the application on a kubernetes service (EKS) running on AWS.
 
+Variables that must be set on CircleCI's project (as mentioned in the config file project1-AppCode/.circleci/config.yml):
+1. $DOCKER_USERNAME
+2. $DOCKER_PASSWORD
+3. $GITHUB_PERSONAL_TOKEN (created from your github account - developer settings. You must add permissions to this token too)
+
 
