@@ -40,6 +40,5 @@ c. Update the repo mentioned in #2 with the manifest (deployment & service yamls
 Variables that must be set on CircleCI's project (as mentioned in the config file project1-AppCode/.circleci/config.yml):
 1. $DOCKER_USERNAME
 2. $DOCKER_PASSWORD
-3. $GITHUB_PERSONAL_TOKEN (created from your github account - developer settings. You must add permissions to this token too)
-
-
+3. $GITHUB_PERSONAL_TOKEN (created from your github account - developer settings. You must add permissions to this token too actions & contents both Read-Write)
+   
