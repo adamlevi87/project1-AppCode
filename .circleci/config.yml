@@ -27,7 +27,7 @@ jobs:
           command: |
             TAG=$CIRCLE_BUILD_NUM
             ((TAG--))
-            git clone https://github.com/adamlevi87/kube_manifest.git
+            git clone https://github.com/adamlevi87/project1-kube_manifest.git
             git config --global user.email "adamlevi87@gmail.com"
             git config --global user.name "adamlevi87"
             pwd
