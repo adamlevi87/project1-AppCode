@@ -22,6 +22,7 @@ This repository contains the code of the React application called ToDo-App. I've
 
 1. https://github.com/adamlevi87/project1-AppCode
 2. https://github.com/adamlevi87/project1-kube_manifest
+3. will be updated later (includes my own TF / infrastructure creation process)
 
 
 This repository will be used in the CI process where we will be using CircleCI, on any change on this repo, to:
