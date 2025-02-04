@@ -23,3 +23,9 @@ This repository contains the code of the React application called ToDo-App. I've
 1. https://github.com/adamlevi87/project1-AppCode
 
 
+This repository will be used in the CI process where we will be using CircleCI, on any change on this repo, to:
+build our dockerized application
+push it to the selected docker service (docker hub)
+update another github repository with the manifests (deployment & service yamls) to be used by ArgoCD to deploy/update the application on a kubernetes service (EKS) running on AWS.
+
+
